@@ -7,7 +7,8 @@
 html, body {
 	background-image: url("./images/moon3.jpg");
 	background-repeat: no-repeat;
-    background-position: left top;
+   /* background-position: left top;*/
+	 margin-bottom: 60%; 
     margin-left: 0px;
     background-attachment: fixed;
     height: 50px;
