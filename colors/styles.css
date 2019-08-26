@@ -1,0 +1,40 @@
+h1{
+    margin-left: 80px;
+}
+#r{
+    color:red;
+}
+#g{
+    color: green;
+}
+#b{
+    color:blue;
+}
+#colors{
+height: 100px;
+width: 100px;
+background-color:rgb(128,128,128) ;
+margin-bottom: 30px;
+margin-left: 200px;
+}
+#red{
+    margin-left: 20px;
+}
+#green{
+    margin-left: 30px;
+}
+#blue{
+    margin-left: 30px;
+}
+#div{
+margin-top: 20px;
+margin-left: 180px;
+}
+#first, #second, #third, #fourth, #fifth{
+    height: 50px;
+    width: 50px; 
+    background-color:white ;
+    float:left; 
+    margin-left: 40px;
+    margin-top: 30px; 
+}

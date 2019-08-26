@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>colors</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>RGB (<span id="r">Red</span>,<span id="g"> Green</span>, <span id="b">Blue</span>)</h1>
+    <div id="colors" onclick="colorGradient()"></div>
+    
+    <input id="red" type="range" min="0" max="255" onchange="redColor()()" oninput="changeColor(event)"> 
+    <input id="green" type="range" min="0" max="255" onchange="greenColor()()"  oninput="changeColor(event)"> 
+    <input id="blue" type="range" min="0" max="255" onchange="blueColor()()"  oninput="changeColor(event)"> <br>
+    <input id="putRed" type="text"  >
+    <input id="putGreen" type="text" >
+    <input id="putBlue"type="text" >
+    <div id="div"></div>
+    <div id="first"></div>
+    <div id="second"></div>
+    <div id="third"></div>
+    <div id="fourth"></div>
+    <div id="fifth"></div>
+
+
+	
+<script src="./js.js" defer></script>
+</body>
+</html>

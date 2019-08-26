@@ -1,0 +1,17 @@
+
+#cardsContainer{
+height: 700px;
+width: 700px;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+
+div{
+    background-color: greenyellow;
+    border-radius: 3%;
+}
